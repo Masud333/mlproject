@@ -18,4 +18,4 @@ class CustomException(Exception):
         self.error_message = error_message_detail(error_message, error_detail=error_detail)
 
     def __str__(self):
-        return self.error_message # inherting the str func from the parent class, outputs the error msg whenever we print it
+        return self.error_message # inherting the __str__ func from the parent class, outputs the error msg whenever we print it

@@ -7,4 +7,5 @@ scikit-learn
 xgboost
 ipykernel
 dill
+Flask
 # -e .
