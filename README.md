@@ -20,8 +20,11 @@ pip install numpy pandas scikit-learn matplotlib
 #### Usage
 To run this project, you need to clone this repository and run the main.py file:
 
+```git
 git clone https://github.com/Masud333/mlproject.git
 cd mlproject
 python main.py
+```
+
 
 This will output the mean squared error and the coefficient of determination for both models, as well as a plot of the predicted vs actual prices.
